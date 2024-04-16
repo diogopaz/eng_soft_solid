@@ -1,6 +1,6 @@
-# Princípios de Design no Código de Cálculo de Área de Formas
+# Princípios de Projeto no Código de Cálculo de Área de Formas
 
-Este é um README explicando como o código fornecido respeita os princípios de design SOLID: Responsabilidade Única, Aberto/Fechado, Princípio de Demeter e Substituição de Liskov.
+Este é um README explicando como o código fornecido respeita os princípios de design SOLID: Responsabilidade Única, Aberto/Fechado e Substituição de Liskov. Além disso, também respeita o Princípio de Demeter.
 
 ## Responsabilidade Única
 
