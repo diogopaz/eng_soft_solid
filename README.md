@@ -7,6 +7,12 @@ Este é um README explicando como o código fornecido respeita os princípios de
 Cada classe no código tem uma única responsabilidade bem definida:
 
 - A classe base `Forma` define a interface para calcular a área de uma forma.
+    ```javascript
+    class Forma {
+        area() {
+            throw new Error("Método 'area' deve ser implementado por subclasses");
+        }
+    }```
 - As subclasses `Circulo` e `Retangulo` implementam a lógica específica para calcular a área de um círculo e retângulo, respectivamente.
 - A função `calcularArea()` é responsável por calcular a área de uma forma genérica, sem se preocupar com a implementação específica de cada forma.
 
