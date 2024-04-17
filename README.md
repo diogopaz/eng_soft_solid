@@ -6,7 +6,8 @@ Este é um código simples em Javascript que implementa o cálculo da área de d
 
 Cada classe no código tem uma única responsabilidade bem definida:
 
-- A classe base `Forma` define a interface para calcular a área de uma forma.
+- A classe base [`Forma`](script.js#L3)
+ define a interface para calcular a área de uma forma.
     ```javascript
     class Forma {
         area() {
